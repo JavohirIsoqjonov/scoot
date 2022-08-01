@@ -1,0 +1,45 @@
+.comments {
+    .card {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    img {
+        width: 550px;
+    }
+
+    h2 {
+        width: 200px;
+    }
+
+    p {
+        width: 350px;
+        padding: 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .comments {
+        .card {
+            max-width: 750px;
+            display: block;
+            text-align: center !important;
+            margin: 40px auto;
+            align-items: center;
+
+            p,
+            h2 {
+                margin: 0 auto;
+                padding: 20px auto;
+            }
+
+            h2 {
+                width: 300px;
+            }
+        }
+    }
+}

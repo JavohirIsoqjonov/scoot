@@ -1,0 +1,132 @@
+.home__container {
+    min-height: 550px;
+    border: none;
+    background-image: url(../../img/Bitmap\ \(1\).png);
+    background-size: cover;
+    width: 100%;
+
+    .card1 {
+       position: relative;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    h1 {
+        color: white;
+        padding-left: 70px;
+        max-width: 500px;
+        font-size: 56px;
+    
+        line-height: 1;
+    }
+    p {
+        color: white;
+        max-width: 500px;
+        font-size: 17px;
+        line-height: 1.5;
+        padding-left: 70px;
+    }
+    button {
+       border-radius: 7px;
+       padding: 15px 31px;
+       background-color: orange;
+       border: none;
+       color: #fff;
+       margin-top: 60px;
+       margin-left: 70px;
+    }
+   
+}
+
+
+@media screen and (max-width: 1010px) {
+    .home__container {
+
+        .card1 {
+            padding-left: 100px;
+        }
+
+        h1 {
+            padding-left: 0px;
+            margin-left: 0;
+            font-size: 50px;
+            max-width: 600px;
+        }
+
+        p {
+            padding-left: 0;
+            font-size: 15px;
+        }
+
+        button {
+            margin-left: 0;
+        }
+
+        .imegs {
+            display: none;
+        }
+
+        .imegss {
+            position: absolute;
+            margin-left: -200px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home__container {
+
+        .card1 {
+            padding-left: 70px;
+        }
+
+        h1 {
+            padding-left: 0px;
+            margin-left: 0;
+            font-size: 40px;
+            max-width: 450px;
+        }
+
+        p {
+            padding-left: 0;
+            font-size: 15px;
+        }
+
+        button {
+            margin-left: 0;
+        }
+
+        .imegs {
+            display: none;
+        }
+
+        .imegss {
+            position: absolute;
+            margin-left: -350px;
+            top: 270px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 670px) {
+    .home__container {
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 , p {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    h1 {
+        margin-top: 40px;
+    }
+
+    p {
+        padding: 20px 0;
+    }
+    .imegss {
+        left: 150px;
+    }
+}

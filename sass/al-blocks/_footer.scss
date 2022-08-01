@@ -1,0 +1,48 @@
+.footer {
+    margin-top: 100px;
+
+    &__container {
+        background-color: #495567;
+        min-height: 200px;
+    }
+
+    &__texts {
+        padding: 10px 40px;
+        color: #fff;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            max-width: 290px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        align-items: center;
+        background-color: #333A44;
+        padding: 20px 20px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin-left: 20px;
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+
+    .nav img {
+        margin-left: 15px;
+    }
+
+}

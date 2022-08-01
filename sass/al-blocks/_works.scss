@@ -1,0 +1,65 @@
+.works__container {
+    margin-top: 200px;
+    position: relative;
+
+    .cards {
+        justify-content: space-between;
+        display: flex;
+
+    }
+
+    .card {
+        width: 300px;
+        min-height: 250px;
+        font-size: 16px;
+    }
+
+    .chiziq {
+        height: 15px;
+        background-color: rgb(227, 220, 220);
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .circle-1 {
+        left: 100px;
+        top: -38px;
+        z-index: 100;
+        position: absolute;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .circle-2 {
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: -38px;
+        left: 430px;
+    }
+
+    .circle-3 {
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: -38px;
+        left: 760px;
+    }
+
+    button {
+        border-radius: 6px;
+        border: none;
+        background-color: lightseagreen;
+        color: white;
+        height: 30px;
+        width: 200px;
+        margin-top: 35px;
+        margin-left: -70px;
+    }
+
+    .h3 {
+        font-size: 50px;
+        color: bisque;
+    }
+
+}
