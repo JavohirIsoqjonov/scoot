@@ -1,12 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lexend Deca';
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing :border-box;
 }
 
-h1,
-h2,
-h3 {
+* {
+    font-family: 'Lexend Deca';
+    transition: all 0.2s;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 , h3 {
     font-family: 'Space Mono';
+    color: #495567;
+}
+
+li {
+    font-size: 15px;
+    list-style: none;
+    color: #495567;
 }
